@@ -1,7 +1,8 @@
 <h1 align="center"> Proyecto final Arg Programa </h1>
 
 <p align="left">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   <img src="![logo personal 1](https://user-images.githubusercontent.com/44091070/228688253-264daf30-3443-474a-a67e-ba01150834bb.png)
+">
    </p>
 [logo personal]https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"
 
@@ -15,4 +16,5 @@
 
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115>
+| [<img src="![fotocv-proyecto](https://user-images.githubusercontent.com/44091070/228688125-c7cac815-66e6-4672-9802-3a3ccfc38b81.jpg)
+" width=115>
