@@ -4,7 +4,6 @@
 
 <h1 align="center"> Proyecto Final TICMAS </h1>
 
-
 <h4 align="center">
 :construction: Proyecto en construcción :construction:
 </h4>
@@ -18,7 +17,8 @@
  - <img alt="HTML5-logo" src="https://img.shields.io/badge/-HTML-e34f26?logo=html5&logoColor=fff">
  - <img alt="css3-logo" src="https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=fff">
  - <img alt="Javascript-logo" src="https://img.shields.io/badge/-JAVASCRIPT-F7DF1E?logo=javascript&logoColor=fff">
-
+## Link De Acceso:
+- <kbd><a href="https://lautaro496.github.io/src/index.html">CLICK AQUI</a></kbd>
 ## Autor
  <img alt="personal logo" src="/src/img/logo-personal-bd.png" width="150" height="150" align="left">
  <img alt="foto-perfil-cv-lautaro-gonzalez" src="/src/img/foto-perfil-readme.png" width="150" height="150" align="right">
