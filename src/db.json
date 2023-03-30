@@ -1,1 +1,14 @@
+// VISIT PAGE
 // https://my-json-server.typicode.com/Lautaro496/lautaro496.github.io
+
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "lautaro496"
+  }
+}
