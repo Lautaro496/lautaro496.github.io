@@ -11,5 +11,5 @@
 `Funcionalidad 3`: _emitir **buenas vibras**_ :sparkles:
 
 ## Autor
- <img alt="personal logo" src="/src/img/logo-personal-bd.png" width="273" height="273" align="left">
- <img alt="foto-perfil-cv-lautaro-gonzalez" src="/src/img/foto-perfil-readme.png" width="273" height="273" align="right">
+ <img alt="personal logo" src="/src/img/logo-personal-bd.png" width="150" height="150" align="left">
+ <img alt="foto-perfil-cv-lautaro-gonzalez" src="/src/img/foto-perfil-readme.png" width="150" height="150" align="right">
