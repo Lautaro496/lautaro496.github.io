@@ -1,10 +1,4 @@
-<h1 align="center"> Proyecto final Arg Programa </h1>
-
-<p align="left">
-   <img src="![logo personal 1](https://user-images.githubusercontent.com/44091070/228688253-264daf30-3443-474a-a67e-ba01150834bb.png)
-">
-   </p>
-[logo personal]https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"
+<h1 align="center"> Proyecto Final TICMAS </h1>
 
 <h4 align="center">
 :construction: Proyecto en construcción :construction:
@@ -12,9 +6,10 @@
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Funcionalidad 1`: crear un cv interactivo el cual pueda ir mejorando a lo largo del tiempo 1- `Funcionalidad 2`: demostrar mis capacidades y progreso como desarrollador -`Funcionalidad 3`: buenas vibras
+`Funcionalidad 1`: crear un cv interactivo el cual pueda ir mejorando a lo largo del tiempo.:star: <br>
+`Funcionalidad 2`: demostrar mis **_capacidades y progreso_** como desarrollador.:computer: <br>
+`Funcionalidad 3`: _emitir **buenas vibras**_ :sparkles:
 
-## Autores
-
-| [<img src="![fotocv-proyecto](https://user-images.githubusercontent.com/44091070/228688125-c7cac815-66e6-4672-9802-3a3ccfc38b81.jpg)
-" width=115>
+## Autor
+ <img alt="personal logo" src="/src/img/logo-personal-bd.png" width="273" height="273" align="left">
+ <img alt="foto-perfil-cv-lautaro-gonzalez" src="/src/img/foto-perfil-readme.png" width="273" height="273" align="right">
