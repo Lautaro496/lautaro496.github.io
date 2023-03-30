@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 
-form,p{font-family: 'Montserrat', sans-serif;font-size: small;}
+/* p,form{
+        /* font-family: 'Montserrat', sans-serif; */
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* font-family: 'Poppins', sans-serif;  */
+/* } */
+       
 
 *{
     box-sizing: border-box;
 }
 a{
-    color:red !important;
+    color:rgba(90,52,8,0.904) !important;
+}
+a:hover{
+    color: rgba(207,163,106,0.973)!important;
+    transition-duration: 0,5s!important;
 }
 
 img{
     border-radius: 50%;
 }
 .contact-section{
- background-color: aquamarine;
+background-color: rgba(231, 212, 187, 0.212);
 }
 .img-perfil > img{
     width: 300px;
@@ -40,4 +50,12 @@ img{
     height: 2px;
     width: 80%;
     margin: auto;
+}
+button{
+    background-color: rgba(194, 166, 11, 0.76)!important;
+    border: none!important;
+}
+button:hover{
+    background-color: burlywood!important;
+    border: none;
 }
