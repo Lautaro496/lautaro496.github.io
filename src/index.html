@@ -7,119 +7,130 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!-- ICONOS -->
+    <script src="https://kit.fontawesome.com/791701db95.js" crossorigin="anonymous"></script>
     <!-- OPEN GRAPH -->
     <!-- TIPOGRAFIAS Y ESTILOS-->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- TITLE LOGO -->
+     <link rel="icon" type="images/x-icon" href="img/logo-letras.png" />
     <title>CV-Lautaro Gonzalez</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-        <nav  role="navigation" aria-label="navigation-bar-menu-principal" class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="img/logo-personal-bd.png" alt="logo-personal-navbar" height="50" width="50"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contact</a>
-                        </li>
-                    </ul>
+    <div id="main-container" class="container-fluid">
+        <div id="base-row"class="row">
+                <!-- navigation -->
+            <nav id="nav-bar" role="navigation" aria-label="navigation-bar-menu-principal" class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-none" href="#"><img src="img/logo-personal-bd.png" alt="logo-personal-navbar" height="50" width="50"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><img src="img/logo-personal-bd.png" alt="logo-personal-navbar" height="50" width="50"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <picture class="d-none-md">
+                                <img src="img/logo-personal-bd.png" alt="logo-personal-navbar" height="50" width="50">
+                            </picture>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="presentation-name-mobile">
+                        <h6>LAUTARO GONZALEZ</h6>
+                        <h6>TECNICO EN INFORMATICA</h6>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <div class="col-lg-5 col-md-5 text-center contact-section">
-            <div class="d-flex justify-content-center align-items-center img-perfil">
-                <img src="img/fotocv-proyecto.jpg" alt="imagen cv">
-            </div>
-                <section>
-                    <h4>PERFIL</h4>
+            </nav>
+            <!-- end navigation -->
+            <!-- first column start -->
+            <div id="first-column"class="col-lg-5 col-md-4">
+                <div id="img-perfil" role ="img" class="d-flex justify-content-center align-items-center " aria-label="imagen de perfil cv">
+                    <img src="img/foto-perfil-readme.png" alt="imagen cv">
+                </div>
+                <article id="profile-section">
+                    <h4><span class="fa-solid icon profile"></span> PERFIL</h4>
                     <p>Interesado en incorporarme a empresa u organización para desarrollar tareas de asistencia y administrativas.
-                        Con capacidad de organización,metódico y muy buena predisposición para el trabajo en equipo
-                    </p>
-                </section>
-                <section>
-                    <h4>CONTACTO</h4>
+                    Con capacidad de organización, metódico y muy buena predisposición para el trabajo en equipo</p>
+                </article>
+                <article id="contact-section">
+                    <h4><span class="fa-solid icon contact"></span> CONTACTO</h4>
                     <ul>
-                        <li>DNI: 41 756 674</li>
+                        <li><span> DNI: 41 756 674</span></li>
                         <li>Celular: (011) 3872 8888</li>   
                         <li>Correo: vlautarogonz@gmail.com</li>
                         <li>Linkdin: linkedin.com/in/laugonz17/</li>
                         <li>Dirección: San Justo, Buenos Aires</li>
                     </ul>
-                </section>
-                <section>
-                    <h4>EDUCACION</h4> 
-                    <h6>Universidad Nacional de la Matanza</h6>
-                    <p>ingenieria Informatica, (presente)</p>
-                    <h6>Universidad Fasta</h6> <p>Tramo de Formación Pedagógica,
-                    (presente)</p>
-                    <h6>Colegio Monseñor T.J Solari</h6> <p> Técnico en informática (2011-2017)</p>
-                    <h6>Idioma: Inglés</h6> <p> Nivel Basico Profesional.</p>
-                </section>
+                </article>
+                <article id="education-section">
+                    <h4><span class="fa-solid icon education"></span> EDUCACION</h4> 
+                        <h6>Universidad Nacional de la Matanza</h6>
+                            <p>ingenieria Informatica, (presente)</p>
+                        <h6>Universidad Fasta</h6> 
+                            <p>Tramo de Formación Pedagógica,(presente)</p>
+                        <h6>Colegio Monseñor T.J Solari</h6>
+                            <p> Técnico en informática (2011-2017)</p>
+                        <h6>Idioma: Inglés</h6> 
+                            <p> Nivel Basico Profesional.</p>
+                </article>
             </div>
-            <div class="col-lg-7 col-md-7 col-sm-3 exp-section text-center">
-                <!-- nombre -->
-                <div class="d-flex justify-content-center align-items-center nombre"> 
-                        <h1>LAUTARO GONZALEZ</h1>
+            <!-- second column start -->
+            <div id="second-column" class="col-lg-7 col-md-8 col-sm-3">
+                <div id="name-title-presentation" class="d-flex justify-content-center align-items-center"> 
+                    <h1 >LAUTARO GONZALEZ</h1>
                     <h4>TECNICO EN INFORMATICA</h4>
                 </div>
-                <div class="d-flex justify-content-center linea-divisoria"></div>
-                    <!-- titulo -->
-              
-                    <!-- experiencia laboral  -->
-                    <section>
-                        <h4>EXPERIENCIA LABORAL </h4>
-                        </section>
-                        <!-- cargo -->
-                        <section> 
-                            <h6>Asistente</h6>
-                            <h6>Fundacion Tzedaka, jun 2022 - presente </h6>
-                            <ul>
-                                <li><span>Asistencia en el área de capacitación del programa Acción Joven.</span></li>
-                                <li><span>Convocatoria de alumnos para cursada </span></li>
-                                <li><span>Gestión Documental física y digital</span></li>
-                                <li><span>Carga de datos en sistema interno. (SIC).</span></li>
-                                <li><span>Carga de datos en sistema interno. (SIC).</span></li>
-                            </ul>                    
-                        </section>
+                <div id="linea-divisoria" class="d-flex justify-content-center"></div>
+                <!-- experiencia laboral  -->
 
-                        <section> 
-                            <h6>Técnico Informático</h6>
-                            <h6>Independiente, Mayo 2021 - Jun 2022 </h6>
-                            <ul>
-                                <li><span>Mantenimiento y actualización de sistemas operativos Windows.</span></li>
-                                <li><span>Instalación de infraestructura de redes. </span></li>
-                                <li><span>Instalación de sistemas operativos drivers, antivirus y Office</span></li>
-                                <li><span>Atención, resolución de problemas 
-                                    y mantenimiento de equipos informáticos.</span></li>
-                            </ul>                    
-                        </section>
-                         <h4>CURSOS Y MENCIONES </h4>
-                        </section>
-                        <!-- cargo -->
-                          <b><h6>MENCION PREUNIVERSITARIA</h6></b>    
-                            <h6>construcción de router CNC con material tecnológico reciclado,
-                                controlado por Arduino.UAI (2017) </h6>
-                            <b><h6>Curso de Formación Profesional -Reparación de PC - Instalación de Redes</h6></b> 
-                            <h6>CFP 403 (2016) </h6>
-                        <section> 
-                    </div>    
-                </div>
-        </div>
+                <article id="experience-section">
+                    <h4><span class="fa-solid icon suitcase"></span> EXPERIENCIA LABORAL</h4> 
+                    <div class="first-job">
+                        <h6>Asistente</h6>
+                        <h6>Fundacion Tzedaka, jun 2022 - presente </h6>
+                        <ul role="list">
+                            <li role="list item"><span>Asistencia en el área de capacitación del programa Acción Joven.</span></li>
+                            <li role="list item"><span>Convocatoria de alumnos para cursada </span></li>
+                            <li role="list item"><span>Gestión Documental física y digital</span></li>
+                            <li role="list item"><span>Carga de datos en sistema interno. (SIC).</span></li>
+                            <li role="list item"><span>Carga de datos en sistema interno. (SIC).</span></li>
+                        </ul>                    
+                    </div>
+                    <div class="second-job">
+                        <h6>Técnico Informático</h6>
+                        <h6>Independiente, Mayo 2021 - Jun 2022 </h6>
+                        <ul role="list">
+                            <li role="list item"><span>Mantenimiento y actualización de sistemas operativos Windows.</span></li>
+                            <li role="list item"><span>Instalación de infraestructura de redes. </span></li>
+                            <li role="list item"><span>Instalación de sistemas operativos drivers, antivirus y Office</span></li>
+                            <li role="list item"><span>Atención, resolución de problemas y mantenimiento de equipos informáticos.</span></li>
+                        </ul>   
+                    </div>                 
+                </article>
+                <!-- cursos y menciones -->
+                <article id="achievements-section">
+                <h4><span class=" fa-solid icon award"></span> CURSOS Y MENCIONES</h4>
+                <b><h6>Mencion Preuniversitaria</h6></b>    
+                <h6>Construcción de router CNC con material tecnológico reciclado,
+                controlado por Arduino.</h6>
+                <i><h6>UAI (2017)</h6></i>
+                <h6>Curso de Formación Profesional -Reparación de PC - Instalación de Redes</h6>
+                <i><h6>CFP 403 (2016)</h6></i>
+                </article>  
+            </div>
         <div class="row text-center">
             <footer>
-                <i><span>Lautaro Gonzalez</span> </i>
+                <i><span>Lautaro Gonzalez</span></i>
             </footer>
         </div>
     </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 </body>
