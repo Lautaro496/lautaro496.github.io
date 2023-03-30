@@ -46,14 +46,13 @@
           </div>
         </nav>
 
-        <form action="" method="post">
+        <form id="dataForm" action="" method="post">
           <div class="mb-3">
             <label for="Nombre" class="form-label">Nombre</label>
             <input
-              typ
-              e="Nombre"
+              type="Nombre"
               class="form-control"
-              id="FormControlInput1email"
+              id="FormControlInputName"
               placeholder="Nombre"
             />
           </div>
@@ -62,7 +61,7 @@
             <input
               type="email"
               class="form-control"
-              id="FormControlInput1email"
+              id="FormControlInputEmail"
               placeholder="name@example.com"
             />
           </div>
@@ -70,7 +69,7 @@
             <label for="comentario" class="form-label">Comentarios</label>
             <textarea
               class="form-control"
-              id="FormControlTextarea1 comentario"
+              id="FormControlComment"
               rows="3"
               placeholder="Inserte su comentario aqui..."
             ></textarea>
@@ -80,18 +79,27 @@
               </button>
             </div>
           </div>
-        </form>
+          <form id="getForm" action="" method="get">
+            <button type="submit" class="btn btn-primary mb-3 submit-button">
+              Mostrar Info
+            </button>
+          </form>
+         
       </div>
       <div class="row text-center">
         <footer>
+           <div id="results"></div>
             <i><span>Lautaro Gonzalez</span> </i>
         </footer>
       </div>
     </div>
+    <!-- BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-  </body>
+    <!-- SCRIPTS -->
+    <script src="scripts/script.js"></script>
+  </body> 
 </html>
