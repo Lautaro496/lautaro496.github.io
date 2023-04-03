@@ -26,16 +26,19 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
   })
 
 
-  var getForm = document.getElementById("getForm");
-  getForm.addEventListener('submit',function(e){
-    e.preventDefault()
-  fetch('https://jsonplaceholder.typicode.com/posts/${data}')
-  .then((response) => response.json())
-  })
-  .then(function(data){     
-        console.log(data)
-        var results = document.getElementById("results");
-        console.log(results);
-        results.innerHTML=`<p>Nombre: ${data.name}</p> 
-      </p>  <p>Email: ${data.email} </p><p>Comentario: ${data.comentario} </p> <p>id: ${data.id} </p>`
+  var getForm = document.getElementById("get-form");
+  
+  if(getForm){
+
+    getForm.addEventListener('submit',function(e){
+      e.preventDefault()
+      fetch('https://jsonplaceholder.typicode.com/posts/${data}')
+      .then((response) => response.json())
+    })
+    .then(function(data){     
+      console.log(data)
+      var results = document.getElementById("results");
+      console.log(results);
+      results.innerHTML=`<p>Nombre: ${data.name}</p> <p>Email: ${data.email} </p> <p>Comentario: ${data.comentario} </p> <p>id: ${data.id} </p>`
     });
+  }

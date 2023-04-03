@@ -42,7 +42,7 @@ img {border-radius: 50%;}
     padding-bottom: 14%;
 }
 
-#img-perfil,#name-title-presentation{
+#img-perfil, #name-title-presentation{
     width: 25vw;
     max-width: 250px;
     min-width: 60px;
