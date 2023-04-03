@@ -2,6 +2,10 @@
 <html lang="en">
 <html prefix="og: https://ogp.me/ns/article#"></html>
 <head>
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum vitae en etapa de desarrollo utilizando HTML5 CSS Y JS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CV-LAUTARO-GONZALEZ</title>
     <meta property="og:title" content="CV LAUTARO GONZALEZ"/>
     <meta property="og:url" content="https://lautaro496.github.io"/>
@@ -10,11 +14,7 @@
     <meta property="og:image" content=" https://lautaro496.github.io/src/img/logo-letras.png"/>
     <meta property="og:image:type" content="image/png"/>
     <meta property="og:image:alt" content="imagen logo iniciales V L G blanco y dorado"/>
-    
-    <meta name="description" content="Descripcion de pagina. un simple curriculum realizado con html5 css y javascript." />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripcion de pagina. curriculum realizado con html5 css y javascript." />
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -33,7 +33,7 @@
     <div id="main-container" class="container-fluid">
         <div id="base-row"class="row">
                 <!-- navigation -->
-            <nav id="nav-bar" role="navigation" aria-label="navigation-bar-menu-principal" class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav id="nav-bar" role="navigation" aria-label="navigation-bar-menu-principal" class="navbar navbar-expand-md bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand d-none" href="#"><img src="img/logo-personal-bd.png" alt="logo-personal-navbar" height="50" width="50"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,8 +42,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <picture class="d-none-md">
-                                <img src="img/logo-personal-bd.png" alt="logo-personal-navbar" height="50" width="50">
+                            <picture class="d-md-block d-none">
+                                <img src="img/logo-personal-bd.png" alt="logo-personal-navbar" height="60" width="60">
                             </picture>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">HOME</a>
@@ -53,7 +53,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="presentation-name-mobile">
+                    <div class="presentation-name-mobile d-md-none">
                         <h6>LAUTARO GONZALEZ</h6>
                         <h6>TECNICO EN INFORMATICA</h6>
                     </div>
@@ -61,7 +61,7 @@
             </nav>
             <!-- end navigation -->
             <!-- first column start -->
-            <div id="first-column"class="col-lg-5 col-md-4">
+            <div id="first-column"class="col-lg-5 col-md-6">
                 <div id="img-perfil" role ="img" class="d-flex justify-content-center align-items-center " aria-label="imagen de perfil cv">
                     <img src="img/foto-perfil-readme.png" alt="imagen cv">
                 </div>
@@ -73,11 +73,11 @@
                 <article id="contact-section">
                     <h4><span class="fa-solid icon contact"></span> CONTACTO</h4>
                     <ul>
-                        <li><span> DNI: 41 756 674</span></li>
-                        <li>Celular: (011) 3872 8888</li>   
-                        <li>Correo: vlautarogonz@gmail.com</li>
-                        <li>Linkdin: linkedin.com/in/laugonz17/</li>
-                        <li>Dirección: San Justo, Buenos Aires</li>
+                        <li><span>DNI: 41 756 674</span></li>
+                        <li><span>Celular: (011) 3872 8888</span></li>   
+                        <li><span>Correo: vlautarogonz@gmail.com</span></li>
+                        <li><span>Linkdin: linkedin.com/in/laugonz17/</span></li>
+                        <li><span>Dirección: San Justo, Buenos Aires</span></li>
                     </ul>
                 </article>
                 <article id="education-section">
@@ -93,14 +93,13 @@
                 </article>
             </div>
             <!-- second column start -->
-            <div id="second-column" class="col-lg-7 col-md-8 col-sm-3">
-                <div id="name-title-presentation" class="d-flex justify-content-center align-items-center"> 
+            <div id="second-column" class="col-lg-7 col-md-6">
+                <div id="name-title-presentation" class="d-none d-md-block"> 
                     <h1 >LAUTARO GONZALEZ</h1>
                     <h4>TECNICO EN INFORMATICA</h4>
                 </div>
-                <div id="linea-divisoria" class="d-flex justify-content-center"></div>
+                <div id="linea-divisoria"></div>
                 <!-- experiencia laboral  -->
-
                 <article id="experience-section">
                     <h4><span class="fa-solid icon suitcase"></span> EXPERIENCIA LABORAL</h4> 
                     <div class="first-job">
@@ -135,6 +134,7 @@
                 <h6>Curso de Formación Profesional -Reparación de PC - Instalación de Redes</h6>
                 <i><h6>CFP 403 (2016)</h6></i>
                 </article>  
+                </div>
             </div>
         <div class="row text-center">
             <footer>
